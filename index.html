@@ -46,6 +46,12 @@
             font-weight: 800;
             line-height: 26px;
         }
+
+        .footer-info {
+            color: rgba(255, 255, 255, 0.60);
+            font-weight: 500;
+            line-height: 40px;
+        }
     </style>
 
     <!-- icon from font_awesome -->
@@ -103,7 +109,7 @@
                 </div>
                 <div class="navbar-end">
                     <div>
-                        <!-- <a href=""><i class="fa-solid fa-magnifying-glass mr-6 opacity-75"></i></a> -->
+                        <a href=""><i class="fa-solid fa-magnifying-glass hidden lg:mr-6 lg:opacity-75"></i></a>
                         <a class="btn btn-heading text-sm px-3 py-0 lg:px-6 lg:py-3 rounded-lg">Get Ticket</a>
                     </div>
                 </div>
@@ -577,10 +583,43 @@
     <!-- main section end -->
 
     <!-- footer section start -->
-    <footer>
-
+    <footer
+        class="footer p-10 bg-[#131318] text-base-content lg:px-32 lg:py-24 flex flex-col lg:justify-around lg:items-start items-center justify-center lg:flex-row ">
+        <aside class="">
+            <h2 class="text-white text-2xl lg:text-3xl font-extrabold pl-20 lg:pl-0">Get In Touch</h2>
+            <p class="footer-info w-[297px] lg:w-[396px] text-center lg:text-start">You'll receive valuable information
+                about
+                your customers preferences and expectations if done correctly.</p>
+            <div class="flex flex-col justify-center items-center lg:items-start lg:pl-0 pl-16">
+                <p class="footer-info "><i class="fa-regular fa-envelope text-[#FF4240] pr-2"></i> hockeys@support.com
+                </p>
+                <p class="footer-info"><i class="fa-solid fa-phone text-[#FF4240] pr-2"></i> (+62) 123-321-543</p>
+            </div>
+        </aside>
+        <nav>
+            <header class="text-white text-xl font-bold">Company</header>
+            <a class="footer-info link link-hover">About us Careers</a>
+            <a class="footer-info link link-hover">Leadership</a>
+            <a class="footer-info link link-hover">News & Article</a>
+            <a class="footer-info link link-hover">Legal Notice</a>
+        </nav>
+        <nav>
+            <header class="text-white text-xl font-bold">Support</header>
+            <a class="footer-info link link-hover">Help Center</a>
+            <a class="footer-info link link-hover">FAQ</a>
+            <a class="footer-info link link-hover">Ticket Support</a>
+            <a class="footer-info link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <header class="text-white text-xl font-bold">Services</header>
+            <a class="footer-info link link-hover">Academy</a>
+            <a class="footer-info link link-hover">Group Lesson</a>
+            <a class="footer-info link link-hover">Private Lesson</a>
+            <a class="footer-info link link-hover">Hockeys for kids</a>
+            <a class="footer-info link link-hover">Hockeys for Adult</a>
+        </nav>
     </footer>
-    <!-- footer section start -->
+    <!-- footer section end -->
 </body>
 
 </html>
